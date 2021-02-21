@@ -1,0 +1,82 @@
+.container {
+  padding: 4rem 1rem;
+}
+
+.container p {
+  margin: 1rem 0;
+}
+
+.card {
+  max-width: 60rem;
+  box-shadow: -10px 10px 80px rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.inlineCode {
+  color: #be00ff;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.inlineCode::before,
+.inlineCode::after {
+  content: '`';
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 1.5rem 0;
+}
+
+.bgWrap {
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  height: 75vh;
+  overflow: hidden;
+  z-index: -3;
+}
+
+.h1Title {
+font-size: calc(3vw + 2vh + 2vmin);
+  padding-left: 10vw;
+  padding-top: 2vw;
+}
+.pTitle {
+    font-size: calc(2vw + 1vh + 2vmin);
+  padding-left: 10vw;
+}
+
+.waveContainer {
+  padding-top: 10vh;
+  position: relative;
+  background: #09f;
+  background-image: url('/assets/avatar2.png');
+  object-fit: contain;
+  background-position: 50vw 0vw;
+  background-repeat: no-repeat;
+  /* padding-left: 10vh; */
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+}
+
+.bgText {
+  top: 12vh;
+  left: 5vw;
+  position: absolute;
+  font-size: 10vw;
+  line-height: 10vw;
+  text-align: left;
+  text-shadow: 1px 1px 1px #3c5c5e;
+}
+.waveFront {
+  z-index: 1000;
+}
+.imgPos {
+  object-position: 100% 0%;
+}
