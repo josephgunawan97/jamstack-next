@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Job from '../components/Job'
 import Profile from '../components/Profile'
+import Company from '../components/Company'
+import Porto from '../components/Porto'
 import styles from '../styles/Layout.module.css'
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
       <Profile></Profile>
       <Job></Job>
+      <Company></Company>
+      
 
       {/* <main className={styles.main}>
         

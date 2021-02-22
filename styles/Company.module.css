@@ -1,0 +1,87 @@
+.containerCompany {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.grid {
+  background-color: rgba(0,153,255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.mainCompany {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logoDiv {
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 150px;
+  border-radius: 50px;
+}
+.logoTask {
+  filter: grayscale();
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 10vw
+}
+.title {
+  margin-bottom: calc(15px + 3vh);
+  margin-top: calc(15px + 3vh);
+  line-height: 1.15rem;
+  font-size: calc(15px + 2vw);
+}
+
+
+.description {
+  padding: 0;
+  overflow: hidden;
+  /* margin-left: 12vw;
+  margin-right: 12vw; */
+  text-align: justify;
+  line-height: calc(14px + 1vw);
+  font-weight: 400;
+  font-size: calc(17px + 0.5vw);
+}
+
+.descriptionTitle {
+  padding: 0;
+  overflow: hidden;
+  /* margin-left: 12vw;
+  margin-right: 12vw; */
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: justify;
+  line-height: calc(14px + 1vw);
+  font-weight: 700;
+  font-size: calc(17px + 0.5vw);
+}
+
+.colContainer {
+  min-height: 45vh;
+  min-width: 45vw;
+  overflow: hidden;
+  border-left: 4px solid #09f;
+  margin-bottom: calc(15px + 3vh);
+  margin-top: calc(15px + 3vh);
+}
+
+.progressBar {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
