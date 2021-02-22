@@ -67,8 +67,9 @@ export async function getStaticProps({ params }) {
   const jobpost = params.jobpost.toString().toUpperCase().replace('-', ' ');
   const response = await axios.get(
     `https://randommer.io/api/Text/LoremIpsum?loremType=business&type=paragraphs&number=1`, 
-    {
+    { headers: {
       'X-API-KEY': '387c04f642bd418cb06260f6710e096c'
+      } 
     }
   );
   const posts = response.status == 200 ? response.data.split('<br>') : '';
